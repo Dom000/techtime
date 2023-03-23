@@ -23,7 +23,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Inside the the app folder (techtime_app), You will find the dockerfile image instructions,Plase dont edit unless if needs be.
 
-2. Inside the root folder youcan find the yaml file where every instruction has been assembled on how docker should build our contaimer images,Plase dont edit unless if needs be.
+2. Inside the root folder you can find the yaml file where every instruction has been assembled on how docker should build our contaimer images,Plase dont edit unless if needs be.
 
 3. Starting project in dev mode with docker use this command to spin it up as ports has been mapped to [http://localhost:3004](http://localhost:3004)
 
