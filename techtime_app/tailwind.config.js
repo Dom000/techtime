@@ -9,7 +9,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        techtimeBlue: "#004DB3",
+        techtimeOffBlue: "#CCDBF0",
+        techtimeDarkBlue: "#000F24",
+      },
+    },
   },
   plugins: [],
 };
