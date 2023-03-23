@@ -9,7 +9,7 @@ export default function Home() {
       <Head_C title={"Home"} />
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.44444js!</a>
+          Welcome to b <a href="https://nextjs.org">Next.44444js!</a>
         </h1>
 
         <p className={styles.description}>
