@@ -9,6 +9,7 @@ export const Head_C = ({ title }) => {
       <link
         href="https://fonts.cdnfonts.com/css/clash-display"
         rel="stylesheet"
+        
       />
     </Head>
   );
