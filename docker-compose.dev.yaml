@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: app-dev
+    image: app-dev
+    build: 
+      context: ./techtime_app
+      dockerfile: Dockerfile
+      target: development
+      
+    ports:
+      - 3004:3000
+    # volumes:
+    #   - ./techtime:/app
+    #   - ./app/node_modules
+    stdin_open: true
