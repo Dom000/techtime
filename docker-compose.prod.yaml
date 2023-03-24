@@ -6,7 +6,6 @@ services:
     image: app-prod
     build:
       context: ./techtime_app
-      dockerfile: Dockerfile
-      target: production
+      dockerfile: Dockerfile.prod
     ports:
      - 3004:3000

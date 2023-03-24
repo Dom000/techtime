@@ -6,7 +6,7 @@ services:
     image: app-dev
     build: 
       context: ./techtime_app
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       target: development
       
     ports:
