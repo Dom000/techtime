@@ -31,7 +31,7 @@ function FirstSection() {
           <div className="max-w-2xl w-96 space-y-4">
             <Heading
               text={"Grow your skills to advance your career path "}
-              className={"text-left"}
+              className={"text-left text-white"}
             />
             <p className="text-sm text-[#AAC4E6] ">
               build your future with our quality education. the best and largest
