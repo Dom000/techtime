@@ -14,22 +14,22 @@ function Header() {
           href="/"
           className={
             router.pathname == "/"
-              ? "text-[#ffffff] text-lg"
-              : "text-[#AAC4E6] text-lg"
+              ? "text-[#ffffff] text-base"
+              : "text-[#AAC4E6] text-base"
           }
         >
           Home
         </a>
-        <a href="#" className={"text-[#AAC4E6] text-lg"}>
+        <a href="#" className={"text-[#AAC4E6] text-base"}>
           About us
         </a>
-        <a href="#" className={"text-[#AAC4E6] text-lg"}>
+        <a href="#" className={"text-[#AAC4E6] text-base"}>
           Courses
         </a>
-        <a href="#" className={"text-[#AAC4E6] text-lg"}>
+        <a href="#" className={"text-[#AAC4E6] text-base"}>
           Testimonial
         </a>
-        <a href="#" className={"text-[#AAC4E6] text-lg"}>
+        <a href="#" className={"text-[#AAC4E6] text-base"}>
           Community
         </a>
       </div>
