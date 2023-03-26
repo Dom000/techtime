@@ -7,7 +7,7 @@ import { IoMdTime } from "react-icons/io";
 
 function FourthSection() {
   return (
-    <div className="flex flex-col relative  justify-center w-full items-center">
+    <div className="flex flex-col relative  justify-center w-full items-center pb-16">
       <img
         src="Vector_(10).png"
         alt="Vector_(10) "
@@ -29,7 +29,7 @@ function FourthSection() {
           <p className="text-[#838383] text-sm">Marketing </p>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-10 px-16 py-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-10 px-16 py-10">
         <div className="bg-slate-50 p-3 rounded-md">
           <div>
             <img src="unsplash_Oalh2MojUuk.png" alt="img" loading="lazy" />
@@ -147,7 +147,7 @@ function FourthSection() {
           </div>
           <div className="flex justify-between mt-5">
             <div className="flex text-[#000000] font-bold text-sm space-x-1">
-              <img src="Frame_165.png" className="w-6 h-6" />
+              <img src="Frame_165_3).png" className="w-6 h-6" />
               <p>Claretta Mason</p>
             </div>
 
@@ -189,7 +189,7 @@ function FourthSection() {
           </div>
           <div className="flex justify-between mt-5">
             <div className="flex text-[#000000] font-bold text-sm space-x-1">
-              <img src="Frame_165.png" className="w-6 h-6" />
+              <img src="Frame165_(2).png" className="w-6 h-6" />
               <p>Jessica Duke</p>
             </div>
 
@@ -231,7 +231,7 @@ function FourthSection() {
           </div>
           <div className="flex justify-between mt-5">
             <div className="flex text-[#000000] font-bold text-sm space-x-1">
-              <img src="Frame_165.png" className="w-6 h-6" />
+              <img src="Frame_165_(1).png" className="w-6 h-6" />
               <p>Samuel jacobs</p>
             </div>
 
