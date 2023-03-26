@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Head_C } from "../components/Head";
 import Header from "../components/Header/Header";
 import FirstSection from "../components/Section1.js/FirstSection";
+import FourthSection from "../components/Section1.js/FourthSection";
 import SecondSection from "../components/Section1.js/SecondSection";
 import ThirdSection from "../components/Section1.js/ThirdSection";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <FourthSection />
     </div>
   );
 }
