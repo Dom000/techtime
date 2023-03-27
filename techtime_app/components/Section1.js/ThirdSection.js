@@ -4,9 +4,9 @@ import Heading from "../common/Heading";
 
 function ThirdSection() {
   return (
-    <div className="md:flex py-10">
-      <div className=" w-full md:w-1/2 relative flex flex-col justify-center p-5  md:pl-20">
-        <div className="w-full md:max-w-2xl md:w-[420px] space-y-4">
+    <div className="lg:flex py-10">
+      <div className=" w-full lg:w-1/2 relative flex flex-col justify-center px-3 md:p-5  md:pl-20">
+        <div className="w-full lg:max-w-2xl lg:w-[420px] space-y-4">
           <Heading
             text={"This is why We Are Best From Others"}
             className={"text-left text-black"}
@@ -31,7 +31,7 @@ function ThirdSection() {
           className="object-contain absolute right-[95%] w-4 bottom-20 "
         />
       </div>
-      <div className="w-full md:w-2/5 pt-10 relative block">
+      <div className="w-full lg:w-2/5 pt-10 px-3 md:px-5 relative block">
         <div className="grid grid-cols-2 gap-2 md:gap-10">
           <div className="space-y-3 bg-slate-50 rounded-md p-3">
             <img loading="eager" src="Frame_131.png" className="w-7" />

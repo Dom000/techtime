@@ -11,25 +11,25 @@ function FourthSection() {
       <img
         src="Vector_(10).png"
         alt="Vector_(10) "
-        className="absolute left-[9%] w-8 bottom-[70%]"
+        className="absolute left-1 md:left-[9%] w-5 md:w-8 bottom-[100%] md:bottom-[70%]"
       />
-      <div className="flex w-[600px] flex-col space-y-4 justify-center items-center">
+      <div className="flex w-full md:w-[600px] flex-col space-y-4 justify-center items-center">
         <Heading text={"Browse Our Popular Courses"} />
         <p className="text-sm text-[#A1A1A1] text-center">
           high-defination video is video of higher resolution and quality than
           standard definition. while there’s no standard meaning for high
           definition, generally any standard video image
         </p>
-        <div className="flex space-x-10">
-          <p className="text-techtimeBlue font-bold text-sm bg-slate-100 rounded-md p-1">
+        <div className="flex space-x-3 md:space-x-10">
+          <p className="text-techtimeBlue font-bold text-xs md:text-sm bg-slate-100 rounded-md p-1">
             All Categories
           </p>
-          <p className="text-[#838383] text-sm">Design </p>
-          <p className="text-[#838383] text-sm">Development </p>
-          <p className="text-[#838383] text-sm">Marketing </p>
+          <p className="text-[#838383] text-xs md:text-sm p-1">Design </p>
+          <p className="text-[#838383] text-xs md:text-sm p-1">Development </p>
+          <p className="text-[#838383] text-xs md:text-sm p-1">Marketing </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-10 px-16 py-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-1 md:gap-10 px-1 md:px-16 py-10">
         <div className="bg-slate-50 p-3 rounded-md">
           <div>
             <img src="unsplash_Oalh2MojUuk.png" alt="img" loading="lazy" />
