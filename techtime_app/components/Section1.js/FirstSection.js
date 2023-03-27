@@ -41,7 +41,7 @@ function FirstSection() {
               build your future with our quality education. the best and largest
               all-in-one online tutoring platform in the world
             </p>
-            <div className="flex justify-center items-center space-x-3 md:space-x-10">
+            <div className="flex md:justify-start md:items-start justify-center items-center space-x-3 md:space-x-10">
               <Button
                 icon={<FiArrowUpRight className="mt-1 text-sm ml-2" />}
                 text={"Get Started Now"}
@@ -54,7 +54,7 @@ function FirstSection() {
                 className={"text-techtimeBlue text-xs bg-white"}
               />
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center md:justify-start md:items-start">
               <img
                 loading="eager"
                 src="Frame101.png"

@@ -11,59 +11,59 @@ function FifthSection() {
   const slides = [
     {
       id: 1,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165.png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe1",
-      ratingValue: "4.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "samuel fortune",
+      title: "product designer",
     },
     {
       id: 2,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165_(1).png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
       name: "John Doe2",
-      ratingValue: "2.5",
+      title: "product designer",
     },
     {
       id: 3,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165_3).png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe3",
-      ratingValue: "0.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "Jbella moon",
+      title: "product designer",
     },
     {
       id: 3,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165.png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe3",
-      ratingValue: "0.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "bryce jason",
+      title: "product designer",
     },
     {
       id: 3,
-      image: "/Rectangle 26.png",
+      image: "/Frame165_(2).png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe3",
-      ratingValue: "0.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "bryce jason",
+      title: "product designer",
     },
     {
       id: 3,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165.png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe3",
-      ratingValue: "0.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "bryce jason",
+      title: "product designer",
     },
     {
       id: 3,
-      image: "/Rectangle 26.png",
+      image: "/Frame_165.png",
       review:
-        "Scud gave me one of the, most interesting platform to run with. I booked my ride and the driver arrived on time and he gave me good customer experience that i really love. Good one Scud",
-      name: "John Doe3",
-      ratingValue: "0.5",
+        "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world",
+      name: "bryce jason",
+      title: "product designer",
     },
   ];
   return (
@@ -85,18 +85,21 @@ function FifthSection() {
             {slides?.map((item, index) => (
               <div
                 key={index}
-                className=" w-[260px] max-w-[260px] bg-white flex flex-col justify-center items-center  p-5 shadow-md shadow-scudGreen/10  rounded-md"
+                className=" w-[300px] md:w-[300px] max-w-[500px] bg-white flex flex-col   p-5 shadow-md shadow-scudGreen/10  rounded-md"
               >
-                <p className=" whitespace-normal text-center text-textColor text-sm">
+                <p className=" whitespace-normal  text-[#787878] text-sm">
                   {item.review}
                 </p>
-                <div className="my-5 flex flex-col space-y-5 items-center justify-center">
-                  {/* <img
-                    className=" w-10 rounded-full object-cover  h-10   "
+                <div className="my-5 flex  space-x-3 i">
+                  <img
+                    className=" w-5 rounded-full object-cover  h-5  "
                     src={item.image}
                     alt={item.name}
-                  /> */}
-                  <p className="font-bold">{item.name}</p>
+                  />
+                  <div>
+                    <p className="font-bold">{item.name}</p>
+                    <p className="text-[#A1A1A1] text-xs">{item.title}</p>
+                  </div>
                 </div>
               </div>
             ))}

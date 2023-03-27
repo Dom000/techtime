@@ -64,7 +64,7 @@ const Carousel = ({ children, device }) => {
       </div>
       <div className="absolute flex justify-between  px-1 md:px-20  w-full">
         <div
-          className=" rounded-full cursor-pointer hover:bg-techtimeBlue hover:text-white  h-10 flex items-center justify-center w-10 shadow-md "
+          className=" rounded-full hidden  cursor-pointer hover:bg-techtimeBlue hover:text-white  h-10 md:flex items-center justify-center w-10 shadow-md "
           onClick={() => {
             updateIndex(activeIndex - 1);
           }}
@@ -72,7 +72,7 @@ const Carousel = ({ children, device }) => {
           <IoIosArrowRoundBack className="text-xl hover:text-white mt-1" />
         </div>
         <div
-          className=" rounded-full  cursor-pointer hover:bg-techtimeBlue hover:text-white  h-10 flex items-center justify-center w-10 shadow-md "
+          className=" rounded-full hidden  cursor-pointer hover:bg-techtimeBlue hover:text-white  h-10 md:flex items-center justify-center w-10 shadow-md "
           onClick={() => {
             updateIndex(activeIndex + 1);
           }}
