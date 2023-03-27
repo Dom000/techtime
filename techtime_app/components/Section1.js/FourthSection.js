@@ -29,8 +29,8 @@ function FourthSection() {
           <p className="text-[#838383] text-xs md:text-sm p-1">Marketing </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-1 md:gap-10 px-1 md:px-16 py-10">
-        <div className="bg-slate-50 p-3 rounded-md">
+      -<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-1 gap-3 md:gap-10 px-1 md:px-16 py-10">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_Oalh2MojUuk.png" alt="img" loading="lazy" />
           </div>
@@ -72,7 +72,7 @@ function FourthSection() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-50 p-3 rounded-md">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_U33fHryBYBU.png" alt="img" loading="lazy" />
           </div>
@@ -114,7 +114,7 @@ function FourthSection() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-50 p-3 rounded-md">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_Lks7vei-eAg.png" alt="img" loading="lazy" />
           </div>
@@ -156,7 +156,7 @@ function FourthSection() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-50 p-3 rounded-md">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_pjAH2Ax4uWk.png" alt="img" loading="lazy" />
           </div>
@@ -198,7 +198,7 @@ function FourthSection() {
             </div>
           </div>
         </div>
-        <div className="bg-slate-50 p-3 rounded-md">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_gMsnXqILjp4.png" alt="img" loading="lazy" />
           </div>
@@ -241,7 +241,7 @@ function FourthSection() {
           </div>
         </div>
 
-        <div className="bg-slate-50 p-3 rounded-md">
+        <div className="bg-slate-100 p-3 rounded-md">
           <div>
             <img src="unsplash_pypeCEaJeZY.png" alt="img" loading="lazy" />
           </div>

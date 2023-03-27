@@ -32,7 +32,7 @@ function FirstSection() {
             alt="hero"
             className="object-contain w-1.5 md:block hidden  absolute bottom-[80%] right-[24%]"
           />
-          <div className=" w-full md:max-w-2xl md:w-96 space-y-4">
+          <div className=" w-full md:max-w-2xl pl-1 md:w-96 space-y-4">
             <Heading
               text={"Grow your skills to advance your career path "}
               className={" text-center text-3xl  md:text-left text-white"}
