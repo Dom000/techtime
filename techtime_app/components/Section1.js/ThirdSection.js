@@ -4,9 +4,9 @@ import Heading from "../common/Heading";
 
 function ThirdSection() {
   return (
-    <div className="flex py-10">
-      <div className="w-1/2 relative flex flex-col justify-center pl-20">
-        <div className="max-w-2xl w-[420px] space-y-4">
+    <div className="md:flex py-10">
+      <div className=" w-full md:w-1/2 relative flex flex-col justify-center p-5  md:pl-20">
+        <div className="w-full md:max-w-2xl md:w-[420px] space-y-4">
           <Heading
             text={"This is why We Are Best From Others"}
             className={"text-left text-black"}
@@ -16,7 +16,7 @@ function ThirdSection() {
             standard definition. while there’s no standard meaning for high
             definition, generally any standard video image
           </p>
-          <div className="flex space-x-10">
+          <div className="flex md:space-x-10">
             <img
               loading="eager"
               src="unsplash_6MePtA9EVDA.png"
@@ -31,8 +31,8 @@ function ThirdSection() {
           className="object-contain absolute right-[95%] w-4 bottom-20 "
         />
       </div>
-      <div className="w-2/5 pt-10 relative block">
-        <div className="grid grid-cols-2 gap-10">
+      <div className="w-full md:w-2/5 pt-10 relative block">
+        <div className="grid grid-cols-2 gap-2 md:gap-10">
           <div className="space-y-3 bg-slate-50 rounded-md p-3">
             <img loading="eager" src="Frame_131.png" className="w-7" />
             <p className=" text-xs font-bold">Experienced Mentors</p>
