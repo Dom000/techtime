@@ -6,7 +6,7 @@ import Button from "../common/Button";
 function Header() {
   const router = useRouter();
   return (
-    <div className="w-full bg-techtimeBlue p-6 flex justify-between">
+    <div className="w-full bg-techtimeBlue border-none p-6 flex justify-between">
       <div className="w-4/6">
         <img src="techtime.png" className="object-contain md:ml-14 w-16" />
       </div>
@@ -35,7 +35,7 @@ function Header() {
         </a>
       </div>
       <div className="w-2/6 flex justify-center">
-        <FiMenu className="text-white text-xl"/>
+        <FiMenu className="text-white md:hidden text-xl"/>
         <Button
           text={"Enroll Now"}
           className={"text-techtimeBlue hidden md:block bg-white"}

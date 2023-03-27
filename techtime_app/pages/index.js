@@ -14,8 +14,8 @@ export default function Home() {
       <Head_C title={"Home"} />
       <Header />
       <FirstSection />
-      {/* <SecondSection />
-      <ThirdSection />
+      <SecondSection />
+      {/* <ThirdSection />
       <FourthSection />
       <FifthSection /> */}
     </div>
