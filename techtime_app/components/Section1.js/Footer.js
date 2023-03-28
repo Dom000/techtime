@@ -9,7 +9,7 @@ function Footer() {
           <img src="techtime.png" className="object-contain  w-16" />
         </div>
         <p className="text-white text-xs tracking-wider">
-          reach out to us on any of our social media networks
+          reach out to us on any of our social <br/> media networks
         </p>
         <div className="">
           <img src="Frame__112.png" className="object-contain  w-40" />
