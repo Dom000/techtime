@@ -5,6 +5,7 @@ import Header from "../components/Header/Header";
 import Faq from "../components/Section1.js/Faq";
 import FifthSection from "../components/Section1.js/FifthSection";
 import FirstSection from "../components/Section1.js/FirstSection";
+import Footer from "../components/Section1.js/Footer";
 import FourthSection from "../components/Section1.js/FourthSection";
 import SecondSection from "../components/Section1.js/SecondSection";
 import SixthSection from "../components/Section1.js/SixthSection";
@@ -21,7 +22,8 @@ export default function Home() {
       <FourthSection />
       <FifthSection />
       <SixthSection />
-      <Faq/>
+      <Faq />
+      <Footer />
     </div>
   );
 }
