@@ -6,37 +6,37 @@ function Faq({ data }) {
   const faq = [
     {
       id: 1,
-      question: "Is there a free trial available??",
+      question: "Is there a free trial available?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
     {
       id: 2,
-      question: "Can i change my plan later??",
+      question: "Can i change my plan later?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
     {
       id: 3,
-      question: "Are the courses lifetime??",
+      question: "Are the courses lifetime?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
     {
       id: 4,
-      question: "Do i get certified after taking courses??",
+      question: "Do i get certified after taking courses?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
     {
       id: 5,
-      question: "How do i reach out to mentors??",
+      question: "How do i reach out to mentors?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
     {
       id: 6,
-      question: "Do we get job ready after taking courses??",
+      question: "Do we get job ready after taking courses?",
       answer:
         "high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. ",
     },
