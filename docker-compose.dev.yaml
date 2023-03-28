@@ -12,6 +12,7 @@ services:
     ports:
       - 3004:3000
     # volumes:
-    #   - ./techtime:/app
+    #   - ./pages:/app/pages
+    #   - ./components:/app/components
     #   - ./app/node_modules
     stdin_open: true

@@ -47,7 +47,7 @@ function Footer() {
             className="border-0 placeholder:text-xs placeholder:text-[#424141] w-36 px-1 outline-none focus:bg-none  bg-[#2A2A2B]"
           />
           <Button
-            text={"Send Message"}
+            text={<pre>Send Message</pre>}
             className={
               "bg-techtimeBlue px-2 font-normal text-xs text-white  border-0"
             }
